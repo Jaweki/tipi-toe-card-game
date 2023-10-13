@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 70vh;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 15%;
+}
+
+.shuffle_btn {
+  margin: 5px auto;
+  border: 2px solid gray;
+  background-color: chartreuse;
+}
+
+.card_div {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid slateblue;
+}
+
+.message_div {
+  height: 20px;
+  width: 100%;;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.col {
+  display: flex;
+  background-color: black;
+  margin: 2px 2px;
+  width: 40px;
+  height: 40px;
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_invisible {
+  display: flex;
+  color: black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item_visible {
+  display: flex;
+  visibility: visible;
+  color: green;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
